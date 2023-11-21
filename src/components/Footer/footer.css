@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .col-md-3,
+    .col-md-2 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .col-md-7 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }

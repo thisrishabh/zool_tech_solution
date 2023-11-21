@@ -1,0 +1,21 @@
+.nav-bar{
+margin-left: 100px;
+}
+.navbar-nav{
+    font-weight: bold;
+    gap:20px;
+    
+}
+.show-on-hover {
+    display: none;
+  }
+  
+  .nav-item.dropdown:hover .show-on-hover {
+    display: block;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color:#43BF00;
+    border-bottom: 1px solid #43BF00; /* Adjust the color as needed */
+  }
+  

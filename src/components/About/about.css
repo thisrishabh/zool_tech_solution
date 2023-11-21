@@ -1,0 +1,92 @@
+.img {
+    height: 450px;
+    width:100%;
+    z-index: 0;
+    opacity:0.7;
+ }
+ .centered {
+   font-size:60px;
+   
+   position: absolute;
+   top: 50%;
+   
+   transform: translate(0, -50%);
+  }
+  .about-main{
+   width: 100%;
+   padding-top: 60px;
+   padding-left:50px;
+   padding-right: 50px;
+  }
+  .mid-title{
+   font-size: 40px;
+  }
+  .mid-desc .left_desc{
+   box-shadow: 12px 12px 20px 1px rgba(0, 0, 255, .2);
+   margin-right: 30px;
+   padding:20px;
+  }
+  .mid-desc .right_desc{
+   box-shadow: 12px 12px 20px 1px rgba(0, 0, 255, .2);
+   padding:20px;
+  }
+  .mid-desc{
+   margin-top:30px;
+   
+
+  }
+  .team{
+   margin-top: 70px;
+  }
+  .team .img-sub-title{
+   margin-top: 15px;
+   margin-bottom: 20px;
+  }
+  .card{
+   margin-left: 25px;
+  }
+  .card .team-img{
+   height:200px;
+   
+  }
+ @media (max-width: 768px) {
+    /* Add your styles for screens with a maximum width of 768px here */
+    .img-title {
+        font-size: 30px;
+    }
+
+    .img-sub-title {
+        font-size: 24px;
+    }
+    .centered{
+      font-size: 30px;
+    }
+    .mid-title{
+      font-size: 30px;
+    }
+    .mid-desc div{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .card{
+      margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Add your styles for screens with a maximum width of 576px here */
+    .img-title {
+        font-size: 24px;
+    }
+
+    .img-sub-title {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
